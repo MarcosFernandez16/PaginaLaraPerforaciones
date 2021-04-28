@@ -1,0 +1,49 @@
+.contenedor {
+    height: 600px;
+    margin: auto;
+    width: 600px;
+    background-repeat: round;
+    background-image: url("../imagenes/logo.jpeg");
+}
+
+.tienda-fondo {
+    /*    background-image: url("../imagenes/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; */   
+    background-color: rgb(141, 104, 111);
+}
+
+.img-card {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.foto-card {
+    width: 200px;
+    height: 200px;
+}
+
+.fondo {
+    background-repeat: round;
+    background-image: url("../imagenes/logo.jpeg");
+    height: 1500px;
+}
+
+.btw {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.introduccion{
+
+    background-color: pink;
+    border-color: black;
+    border-style: groove;
+}
+.colorfondo{
+    background-color: rgb(141, 104, 111);
+}.ig{
+    color: white;
+    
+}
