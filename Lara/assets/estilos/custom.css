@@ -9,7 +9,7 @@
 .tienda-fondo {
     /*    background-image: url("../imagenes/logo.jpeg");
     background-repeat: no-repeat;
-    background-position: center; */   
+    background-position: center; */
     background-color: rgb(141, 104, 111);
 }
 
@@ -35,19 +35,42 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.introduccion{
 
+.bordex {
     background-color: pink;
-    border-color: black;
-    border-style: groove;
+    border: groove 20px grey;
+    margin: 10px;
 }
-.colorfondo{
+
+.colorfondo {
     background-color: rgb(141, 104, 111);
-}.ig{
-    color: white;
-    
 }
-.fondocards{
+
+.ig {
+    color: white;
+
+}
+
+.fondocards {
     background-color: black;
     color: white;
+}
+
+.pinky {
+    color: pink;
+}
+
+.logonav {
+    width: 40px;
+    height: 40px;
+}
+
+.redeslinks {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.lfp {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
