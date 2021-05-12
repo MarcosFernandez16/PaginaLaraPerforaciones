@@ -11,28 +11,31 @@
 </head>
 
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./assets/videos/rayos.mp4" type="video/mp4">
+      </video>
 
-    <nav class="mb-2 navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="mb-2 navbar navbar-expand-lg m-1 colornav navbar-light border text-light">
         <img class="logonav" src="./assets/imagenes/logo.jpeg" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse colornav" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link navsize text-light" href="./index.html"> Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./assets/html/tienda.html">Tienda</a>
+                    <a class="nav-link navsize text-light" href="./assets/html/tienda.html">Tienda</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link navsize dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Mas...
                         </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Contacto</a>
-                        <a class="dropdown-item" href="#">Ofertas</a>
-                        <a class="dropdown-item" href="#">Instrumentos</a>
+                    <div class="dropdown-menu colornav" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item  text-light" href="#">Contacto</a>
+                        <a class="dropdown-item  text-light" href="#">Ofertas</a>
+                        <a class="dropdown-item  text-light" href="#">Instrumentos</a>
                     </div>
                 </li>
             </ul>
@@ -40,7 +43,11 @@
     </nav>
     <!-- TERMINA NAV BAR -->
 
+
+
     <div class="colorfondo container ">
+
+
         <section class="pb-2">
             <img class="imagenLogo pt-3 mx-auto d-flex rounded-circle" src="./assets/imagenes/logo.jpeg" alt="">
             <h6 class="d-flex justify-content-center text-center">Encontra las mejores joyas para tus perforaciones en nuestra tienda. </h6>
@@ -54,34 +61,42 @@
     <div class="container">
 
         <div class="d-flex justify-content-center mt-3">
-            <h3 class="lfp">Lara Fernandez Pardo </h3>
+            <h3 class="lfp pinky">Lara Fernandez Pardo </h3>
         </div>
 
         <div class="d-flex justify-content-center">
             <a href="https://api.whatsapp.com/send?phone=5492494556885" target="_blank">
-                <img class="redeslinks" src="./assets/imagenes/wp.png" alt="">
+                <img class="redeslinks animacion" src="./assets/imagenes/wp.png" alt="">
             </a>
             <a href="">
-                <img class="redeslinks" src="./assets/imagenes/face.png" target="_blank" alt="">
+                <img class="redeslinks animacion" src="./assets/imagenes/face.png" target="_blank" alt="">
             </a>
             <a href="https://www.instagram.com/lalypperforaciones/?hl=es-la" target="_blank">
-                <img class="redeslinks" src="./assets/imagenes/ig.png" alt="">
+                <img class="redeslinks animacion" src="./assets/imagenes/ig.png" alt="">
             </a>
         </div>
 
+
         <footer class="page-footer font-small mdb-color lighten-3">
-            <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <div class="footer-copyright text-center py-3 text-light">© 2021 Copyright:
                 <a class="pinky" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
             </div>
         </footer>
 
     </div>
+    <!-- VIDEITO -->
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous ">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous ">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous ">
     </script>
+    <script src="./assets/js/js.js"></script>
 
 </body>
 
