@@ -1,15 +1,18 @@
-.contenedor {
-    height: 600px;
-    margin: auto;
-    width: 600px;
-    background-repeat: round;
-    background-image: url("../imagenes/logo.jpeg");
+@media only screen and (max-width: 600px) {
+    h4,
+    h5 {
+        font-size: 3px important!;
+        color: yellow;
+        text-align: center;
+        font: xx-small;
+    }
+}
+
+.imagenLogo {
+    width: 50%;
 }
 
 .tienda-fondo {
-    /*    background-image: url("../imagenes/logo.jpeg");
-    background-repeat: no-repeat;
-    background-position: center; */
     background-color: rgb(141, 104, 111);
 }
 
@@ -44,11 +47,11 @@
 
 .colorfondo {
     background-color: rgb(141, 104, 111);
+    border: groove rgb(219, 161, 200) 10px;
 }
 
 .ig {
     color: white;
-
 }
 
 .fondocards {
