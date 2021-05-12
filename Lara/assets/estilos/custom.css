@@ -1,4 +1,4 @@
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 360px) {
     h4,
     h5 {
         text-align: center;
@@ -45,6 +45,7 @@
 .colorfondo {
     background-color: rgb(141, 104, 111);
     border: groove rgb(219, 161, 200) 10px;
+    margin-left: center;
 }
 
 .ig {
