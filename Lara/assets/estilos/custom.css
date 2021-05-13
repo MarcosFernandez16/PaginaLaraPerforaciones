@@ -126,11 +126,11 @@ body {
 }
 
 .link-propio {
-    transition: transform .2s;
+    transition: transform .1s;
     color: pink;
 }
 
 .link-propio:hover {
-    transform: scale(2.5);
+    transform: scale(1.3);
     color: yellow;
 }
