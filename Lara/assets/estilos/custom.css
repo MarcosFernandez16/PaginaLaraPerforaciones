@@ -95,7 +95,6 @@ body {
 
 .animacion {
     transition: transform .2s;
-    /* Animation */
 }
 
 .animacion:hover {
@@ -124,4 +123,14 @@ body {
     top: 0px;
     right: 0px;
     z-index: -1;
+}
+
+.link-propio {
+    transition: transform .2s;
+    color: pink;
+}
+
+.link-propio:hover {
+    transform: scale(2.5);
+    color: yellow;
 }
